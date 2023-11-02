@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enclosed_fossils": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "myfirstmod:enclosed_fossils"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ancient_scale_from_blasting_enclosed_fossils"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_enclosed_fossils"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ancient_scale_from_blasting_enclosed_fossils"
+    ]
+  },
+  "sends_telemetry_event": false
+}

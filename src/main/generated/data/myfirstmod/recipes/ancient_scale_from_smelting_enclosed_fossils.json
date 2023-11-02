@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "ancient_scale",
+  "ingredient": {
+    "item": "myfirstmod:enclosed_fossils"
+  },
+  "result": "myfirstmod:ancient_scale"
+}
