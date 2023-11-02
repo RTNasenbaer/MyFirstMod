@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "W": {
+      "item": "myfirstmod:my_block"
+    },
+    "T": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "myfirstmod:my_item",
+    "count": 1
+  }
+}
