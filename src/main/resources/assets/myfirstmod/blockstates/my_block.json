@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "myfirstmod:block/my_block" }
+  }
+}
