@@ -28,7 +28,7 @@ class MyItem(settings: Settings) : Item(settings) {
         tooltip: MutableList<Text>?,
         context: TooltipContext?
     ) {
-        tooltip?.add(Text.translatable("item.myfirstmod.item_tooltip").formatted(Formatting.GOLD))
+        tooltip?.add(Text.translatable("item.myfirstmod.my_item.item_tooltip").formatted(Formatting.GOLD))
     }
     
 }
