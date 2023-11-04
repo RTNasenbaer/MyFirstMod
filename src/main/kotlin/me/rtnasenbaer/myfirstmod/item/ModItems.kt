@@ -16,7 +16,7 @@ object ModItems {
 
     val ancientScale : Item = registerItem("ancient_scale")
     val scale : Item = registerItem("scale")
-
+    val claw : Item = registerItem("claw")
 
     private fun addItemsToItemGroup(itemGroup: RegistryKey<ItemGroup>, item: Item) {
         ItemGroupEvents.modifyEntriesEvent(itemGroup).register { content -> content.add(item) }

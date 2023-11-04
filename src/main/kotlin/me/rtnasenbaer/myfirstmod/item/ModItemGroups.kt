@@ -15,9 +15,10 @@ object ModItemGroups {
         Identifier(MyFirstMod.MOD_ID, "reptile_group"),
         FabricItemGroup.builder().displayName(Text.translatable("itemGroup.myfirstmod.reptile_group"))
             .icon { ItemStack(ModItems.scale) }
-            .entries { displayContext, entries ->
+            .entries { _, entries ->
                 entries.add(ModItems.ancientScale)
                 entries.add(ModItems.scale)
+                entries.add(ModItems.claw)
 
                 entries.add(ModBlocks.ancientScaleBlock)
                 entries.add(ModBlocks.scaleBlock)
