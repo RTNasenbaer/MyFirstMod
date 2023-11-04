@@ -14,15 +14,21 @@ object ModItemGroups {
     val reptileGroup : ItemGroup = Registry.register(Registries.ITEM_GROUP,
         Identifier(MyFirstMod.MOD_ID, "reptile_group"),
         FabricItemGroup.builder().displayName(Text.translatable("itemGroup.myfirstmod.reptile_group"))
-            .icon { ItemStack(ModItems.scale) }
+            .icon { ItemStack(ModItems.SCALE) }
             .entries { _, entries ->
-                entries.add(ModItems.ancientScale)
-                entries.add(ModItems.scale)
-                entries.add(ModItems.claw)
+                entries.add(ModItems.ANCIENT_SCALE)
+                entries.add(ModItems.SCALE)
+                entries.add(ModItems.CLAW)
 
-                entries.add(ModBlocks.ancientScaleBlock)
-                entries.add(ModBlocks.scaleBlock)
-                entries.add(ModBlocks.enclosedFossils)
+                entries.add(ModItems.FOSSIL_SWORD)
+                entries.add(ModItems.FOSSIL_SHOVEL)
+                entries.add(ModItems.FOSSIL_PICKAXE)
+                entries.add(ModItems.FOSSIL_AXE)
+                entries.add(ModItems.FOSSIL_HOE)
+
+                entries.add(ModBlocks.ANCIENT_SCALE_BLOCK)
+                entries.add(ModBlocks.SCALE_BLOCK)
+                entries.add(ModBlocks.ENCLOSED_FOSSILS)
             }
             .build())
 

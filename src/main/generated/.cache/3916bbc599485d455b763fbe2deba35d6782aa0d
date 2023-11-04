@@ -1,4 +1,4 @@
-// 1.20.2	2023-11-03T08:13:02.444091	MyFirstMod/Model Definitions
+// 1.20.2	2023-11-04T12:35:27.6156445	MyFirstMod/Model Definitions
 9f5a4cc430a8e637dc3cab0c00f4843c478df6c2 assets\myfirstmod\models\item\ancient_scale.json
 aad272ff6cf8d9e328fa4056e972089b82c8aaf9 assets\myfirstmod\models\item\scale.json
 625ee25cd45c8d618695c6ae2644e1c92d5392ed assets\myfirstmod\blockstates\ancient_scale_block.json
@@ -6,8 +6,13 @@ aad272ff6cf8d9e328fa4056e972089b82c8aaf9 assets\myfirstmod\models\item\scale.jso
 e631b7fa866fa96b89198276497060260978de22 assets\myfirstmod\models\block\scale_block.json
 471ec87793ed6c7d6d03591e0adc82d5563078a3 assets\myfirstmod\models\item\claw.json
 5f68d7b013f37a84adb9df93de6da41d157cd512 assets\myfirstmod\models\item\ancient_scale_block.json
+5a3c7fd3f3ef6844bee7bcc9931be23f38b1638b assets\myfirstmod\models\item\fossil_shovel.json
 4d91a3fca1e8e16dea47b7ae4160339b5ed798d6 assets\myfirstmod\models\item\scale_block.json
 a43c495db5f389d340ffe5c0b4994547f124eb0a assets\myfirstmod\models\block\ancient_scale_block.json
 4f0585d95df04884335b712dfff9e00c403dfb90 assets\myfirstmod\blockstates\enclosed_fossils.json
+f9c569b6ec763a40df2a8d9f53c026f822230481 assets\myfirstmod\models\item\fossil_hoe.json
+36d2d51af6d04fda652386814314474d7f2e13f8 assets\myfirstmod\models\item\fossil_axe.json
 6a42cb1231ff083fd22ae3affa7f7c467d3cc41c assets\myfirstmod\blockstates\scale_block.json
+9985def536dec6d59e2c3715cb7622cc6e0958a6 assets\myfirstmod\models\item\fossil_sword.json
 c73ca0163f58e8a282a9e887f4a765805e97fb17 assets\myfirstmod\models\block\enclosed_fossils.json
+b7530beae95f5efdd3b84b1991a1be14e83465da assets\myfirstmod\models\item\fossil_pickaxe.json

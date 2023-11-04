@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "myfirstmod:ancient_scale"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    " T ",
+    " T "
+  ],
+  "result": {
+    "item": "myfirstmod:fossil_shovel"
+  },
+  "show_notification": true
+}

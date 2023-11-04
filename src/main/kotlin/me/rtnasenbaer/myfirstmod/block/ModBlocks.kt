@@ -15,9 +15,9 @@ import net.minecraft.util.Identifier
 
 object ModBlocks {
 
-    val ancientScaleBlock = registerModBlock("ancient_scale_block", Block(FabricBlockSettings.create().mapColor(MapColor.PALE_YELLOW).strength(1.5f).sounds(BlockSoundGroup.BONE).breakInstantly()))
-    val scaleBlock = registerModBlock("scale_block", Block(FabricBlockSettings.create().mapColor(MapColor.PALE_YELLOW).strength(1.5f).sounds(BlockSoundGroup.BONE).breakInstantly()))
-    val enclosedFossils = registerModBlock("enclosed_fossils", Block(FabricBlockSettings.copyOf(Blocks.COAL_ORE).strength(4.5F, 3.0F).requiresTool()))
+    val ANCIENT_SCALE_BLOCK = registerModBlock("ancient_scale_block", Block(FabricBlockSettings.create().mapColor(MapColor.PALE_YELLOW).strength(1.5f).sounds(BlockSoundGroup.BONE).breakInstantly()))
+    val SCALE_BLOCK = registerModBlock("scale_block", Block(FabricBlockSettings.create().mapColor(MapColor.PALE_YELLOW).strength(1.5f).sounds(BlockSoundGroup.BONE).breakInstantly()))
+    val ENCLOSED_FOSSILS = registerModBlock("enclosed_fossils", Block(FabricBlockSettings.copyOf(Blocks.COAL_ORE).strength(4.5F, 3.0F).requiresTool()))
 
     private fun registerModBlock(name: String, block: Block) : Block {
         registerModBlockItem(name, block)

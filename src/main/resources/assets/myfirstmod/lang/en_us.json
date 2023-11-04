@@ -2,6 +2,11 @@
   "itemGroup.myfirstmod.reptile_group": "Reptiles",
   "item.myfirstmod.ancient_scale": "Ancient Scale",
   "item.myfirstmod.scale": "Scale",
+  "item.myfirstmod.fossil_sword": "Fossil Sword",
+  "item.myfirstmod.fossil_shovel": "Fossil Shovel",
+  "item.myfirstmod.fossil_pickaxe": "Fossil Pickaxe",
+  "item.myfirstmod.fossil_axe": "Fossil Axe",
+  "item.myfirstmod.fossil_hoe": "Fossil Hoe",
   "block.myfirstmod.ancient_scale_block": "Ancient Scale Block",
   "block.myfirstmod.scale_block": "Scale Block",
   "block.myfirstmod.enclosed_fossils": "Enclosed Fossils"

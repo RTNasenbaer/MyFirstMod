@@ -14,10 +14,10 @@ class ModBlockTagProvider(output: FabricDataOutput, registriesFuture: Completabl
     override fun configure(arg: RegistryWrapper.WrapperLookup?) {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-            .add(ModBlocks.enclosedFossils)
+            .add(ModBlocks.ENCLOSED_FOSSILS)
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, Identifier("fabric", "needs_tool_level_-1")))
-            .add(ModBlocks.scaleBlock, ModBlocks.ancientScaleBlock)
+            .add(ModBlocks.SCALE_BLOCK, ModBlocks.ANCIENT_SCALE_BLOCK)
 
     }
 }
