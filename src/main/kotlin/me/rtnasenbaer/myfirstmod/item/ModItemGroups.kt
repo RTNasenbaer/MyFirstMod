@@ -26,6 +26,11 @@ object ModItemGroups {
                 entries.add(ModItems.FOSSIL_AXE)
                 entries.add(ModItems.FOSSIL_HOE)
 
+                entries.add(ModItems.FOSSIL_HELMET)
+                entries.add(ModItems.FOSSIL_CHESTPLATE)
+                entries.add(ModItems.FOSSIL_LEGGINGS)
+                entries.add(ModItems.FOSSIL_BOOTS)
+
                 entries.add(ModBlocks.ANCIENT_SCALE_BLOCK)
                 entries.add(ModBlocks.SCALE_BLOCK)
                 entries.add(ModBlocks.ENCLOSED_FOSSILS)

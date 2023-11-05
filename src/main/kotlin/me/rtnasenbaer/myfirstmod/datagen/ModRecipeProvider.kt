@@ -17,8 +17,10 @@ class ModRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output)
         offerSmelting(exporter, ancient_smeltable, RecipeCategory.MISC, ModItems.ANCIENT_SCALE, 0.7F, 200, "ancient_scale")
         offerBlasting(exporter, ancient_smeltable, RecipeCategory.MISC, ModItems.ANCIENT_SCALE, 0.7F, 100, "ancient_scale")
 
+
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ANCIENT_SCALE, RecipeCategory.DECORATIONS, ModBlocks.ANCIENT_SCALE_BLOCK)
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SCALE, RecipeCategory.DECORATIONS, ModBlocks.SCALE_BLOCK)
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.FOSSIL_SWORD, 1)
             .pattern(" C ")
@@ -77,6 +79,47 @@ class ModRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output)
             .criterion(hasItem(ModItems.ANCIENT_SCALE), conditionsFromItem(ModItems.ANCIENT_SCALE))
             .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
             .offerTo(exporter, Identifier(getRecipeName(ModItems.FOSSIL_HOE)))
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.FOSSIL_HELMET, 1)
+            .pattern("SSS")
+            .pattern("C C")
+            .pattern("   ")
+            .input('C', ModItems.CLAW)
+            .input('S', ModItems.ANCIENT_SCALE)
+            .criterion(hasItem(ModItems.CLAW), conditionsFromItem(ModItems.CLAW))
+            .criterion(hasItem(ModItems.ANCIENT_SCALE), conditionsFromItem(ModItems.ANCIENT_SCALE))
+            .offerTo(exporter, Identifier(getRecipeName(ModItems.FOSSIL_HELMET)))
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.FOSSIL_CHESTPLATE, 1)
+            .pattern("C C")
+            .pattern("SSS")
+            .pattern("SSS")
+            .input('C', ModItems.CLAW)
+            .input('S', ModItems.ANCIENT_SCALE)
+            .criterion(hasItem(ModItems.CLAW), conditionsFromItem(ModItems.CLAW))
+            .criterion(hasItem(ModItems.ANCIENT_SCALE), conditionsFromItem(ModItems.ANCIENT_SCALE))
+            .offerTo(exporter, Identifier(getRecipeName(ModItems.FOSSIL_CHESTPLATE)))
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.FOSSIL_LEGGINGS, 1)
+            .pattern("SSS")
+            .pattern("S S")
+            .pattern("C C")
+            .input('C', ModItems.CLAW)
+            .input('S', ModItems.ANCIENT_SCALE)
+            .criterion(hasItem(ModItems.CLAW), conditionsFromItem(ModItems.CLAW))
+            .criterion(hasItem(ModItems.ANCIENT_SCALE), conditionsFromItem(ModItems.ANCIENT_SCALE))
+            .offerTo(exporter, Identifier(getRecipeName(ModItems.FOSSIL_LEGGINGS)))
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.FOSSIL_BOOTS, 1)
+            .pattern("   ")
+            .pattern("S S")
+            .pattern("C C")
+            .input('C', ModItems.CLAW)
+            .input('S', ModItems.ANCIENT_SCALE)
+            .criterion(hasItem(ModItems.CLAW), conditionsFromItem(ModItems.CLAW))
+            .criterion(hasItem(ModItems.ANCIENT_SCALE), conditionsFromItem(ModItems.ANCIENT_SCALE))
+            .offerTo(exporter, Identifier(getRecipeName(ModItems.FOSSIL_BOOTS)))
 
     }
 }

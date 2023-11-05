@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider
 import net.minecraft.data.client.BlockStateModelGenerator
 import net.minecraft.data.client.ItemModelGenerator
 import net.minecraft.data.client.Models
+import net.minecraft.item.ArmorItem
 
 class ModModelProvider(output: FabricDataOutput) : FabricModelProvider(output) {
     override fun generateBlockStateModels(blockStateModelGenerator: BlockStateModelGenerator) {
@@ -25,5 +26,10 @@ class ModModelProvider(output: FabricDataOutput) : FabricModelProvider(output) {
         itemModelGenerator.register(ModItems.FOSSIL_PICKAXE, Models.HANDHELD)
         itemModelGenerator.register(ModItems.FOSSIL_AXE, Models.HANDHELD)
         itemModelGenerator.register(ModItems.FOSSIL_HOE, Models.HANDHELD)
+
+        itemModelGenerator.registerArmor(ModItems.FOSSIL_HELMET as ArmorItem)
+        itemModelGenerator.registerArmor(ModItems.FOSSIL_CHESTPLATE as ArmorItem)
+        itemModelGenerator.registerArmor(ModItems.FOSSIL_LEGGINGS as ArmorItem)
+        itemModelGenerator.registerArmor(ModItems.FOSSIL_BOOTS as ArmorItem)
     }
 }

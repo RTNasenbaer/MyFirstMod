@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "myfirstmod:claw"
+    },
+    "S": {
+      "item": "myfirstmod:ancient_scale"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "C C",
+    "   "
+  ],
+  "result": {
+    "item": "myfirstmod:fossil_helmet"
+  },
+  "show_notification": true
+}

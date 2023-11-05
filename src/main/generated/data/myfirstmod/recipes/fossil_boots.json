@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "myfirstmod:claw"
+    },
+    "S": {
+      "item": "myfirstmod:ancient_scale"
+    }
+  },
+  "pattern": [
+    "   ",
+    "S S",
+    "C C"
+  ],
+  "result": {
+    "item": "myfirstmod:fossil_boots"
+  },
+  "show_notification": true
+}

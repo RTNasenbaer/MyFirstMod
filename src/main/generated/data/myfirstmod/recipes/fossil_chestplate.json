@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "myfirstmod:claw"
+    },
+    "S": {
+      "item": "myfirstmod:ancient_scale"
+    }
+  },
+  "pattern": [
+    "C C",
+    "SSS",
+    "SSS"
+  ],
+  "result": {
+    "item": "myfirstmod:fossil_chestplate"
+  },
+  "show_notification": true
+}

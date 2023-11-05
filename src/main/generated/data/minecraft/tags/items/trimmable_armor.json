@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "myfirstmod:fossil_helmet",
+    "myfirstmod:fossil_chestplate",
+    "myfirstmod:fossil_leggings",
+    "myfirstmod:fossil_boots"
+  ]
+}
