@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "myfirstmod",
-	"version": "1.0.0",
+	"version": "a1.0.0",
 	"name": "MyFirstMod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [

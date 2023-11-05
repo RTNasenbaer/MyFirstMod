@@ -1,4 +1,4 @@
-// 1.20.2	2023-11-04T22:31:05.6748283	MyFirstMod/Model Definitions
+// 1.20.2	2023-11-05T11:45:15.4122556	MyFirstMod/Model Definitions
 6d3baf294f6773dad50aa06caa906cd35bd4c691 assets\myfirstmod\models\item\fossil_helmet_copper_trim.json
 98edac0019573b67ef5bb3b7e7867a702f818707 assets\myfirstmod\models\item\fossil_helmet_lapis_trim.json
 aad272ff6cf8d9e328fa4056e972089b82c8aaf9 assets\myfirstmod\models\item\scale.json
@@ -27,8 +27,8 @@ da74d37ad866f583f89a7b951c801ab1c501f85f assets\myfirstmod\models\item\fossil_ch
 b935ac347a0049ed24de51da1fe68a8bde39afa9 assets\myfirstmod\models\item\fossil_leggings_lapis_trim.json
 6a42cb1231ff083fd22ae3affa7f7c467d3cc41c assets\myfirstmod\blockstates\scale_block.json
 00fee348a019fd9793bd2469f3b59691d121e58c assets\myfirstmod\models\item\fossil_leggings_redstone_trim.json
-b75c66e896c695b6e23bc6df173341570fcdaced assets\myfirstmod\models\item\fossil_chestplate_netherite_trim.json
 4785fd1e7db60c4440fd5bd28dff669602570fa1 assets\myfirstmod\models\item\fossil_boots_netherite_trim.json
+b75c66e896c695b6e23bc6df173341570fcdaced assets\myfirstmod\models\item\fossil_chestplate_netherite_trim.json
 394d630e0c3d367f3b23f07dbad72488b7a3f4bf assets\myfirstmod\models\item\fossil_boots_copper_trim.json
 625ee25cd45c8d618695c6ae2644e1c92d5392ed assets\myfirstmod\blockstates\ancient_scale_block.json
 262bf83a73c5b7e27d1ee4bccf0f25dbaea6fc24 assets\myfirstmod\models\item\fossil_leggings_gold_trim.json
@@ -58,5 +58,5 @@ bfce69fb97f307f83fa5c9282455b3b3febed0cd assets\myfirstmod\models\item\fossil_bo
 4f0585d95df04884335b712dfff9e00c403dfb90 assets\myfirstmod\blockstates\enclosed_fossils.json
 36d2d51af6d04fda652386814314474d7f2e13f8 assets\myfirstmod\models\item\fossil_axe.json
 c73ca0163f58e8a282a9e887f4a765805e97fb17 assets\myfirstmod\models\block\enclosed_fossils.json
-e7c96419870e18d048ccaf6db82c493d8a68eaa9 assets\myfirstmod\models\item\fossil_boots_iron_trim.json
 b7530beae95f5efdd3b84b1991a1be14e83465da assets\myfirstmod\models\item\fossil_pickaxe.json
+e7c96419870e18d048ccaf6db82c493d8a68eaa9 assets\myfirstmod\models\item\fossil_boots_iron_trim.json

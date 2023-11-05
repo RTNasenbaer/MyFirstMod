@@ -1,0 +1,58 @@
+name: Publish on GitHub, Curseforge & Modrinth
+
+on: [ pull_request, workflow_dispatch ]
+
+env:
+  MINECRAFT_VERSION: 1.20.2
+  JAVA_VERSION: 17
+  MOD_VERSION: a1.0.0+1.20.2
+  RELEASE_NAME: fossils-mod-a1.0.0+1.20.2
+  CURSEFORGE_TOKEN: ${{ secrets.PUBLISH_CURSEFORGE_TOKEN }}
+  MODRINTH_TOKEN: ${{ secrets.PUBLISH_MODRINTH_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Environment Variables
+        run: env
+
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: "temurin"
+          java-version: 17
+
+      - name: Make Gradle Wrapper Executable
+        if: ${{ runner.os != 'Windows' }}
+        run: chmod +x ./gradlew
+
+      - name: Build
+        run: ./gradlew clean build
+
+      - name: Publish (Curseforge/Modrinth/GitHub)
+        uses: Kir-Antipov/mc-publish@v3.2
+        with:
+          curseforge-id:
+          curseforge-token: "${{env.CURSEFORGE_TOKEN}}"
+
+          github-tag: "${{env.MOD_VERSION}}"
+          github-token: "${{env.GITHUB_TOKEN}}"
+
+          name: "${{env.RELEASE_NAME}}"
+          version: "${{env.MOD_VERSION}}"
+          version-type: alpha
+          changelog-file: CHANGELOG.md
+
+          loaders: fabric
+          game-versions: "${{env.MINECRAFT_VERSION}}"
+          java: "${{env.JAVA_VERSION}}"
