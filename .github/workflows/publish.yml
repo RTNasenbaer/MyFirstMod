@@ -3,7 +3,6 @@ name: Publish on GitHub, Curseforge & Modrinth
 on: [ pull_request, workflow_dispatch ]
 
 env:
-  MINECRAFT_VERSION: 1.20.2
   JAVA_VERSION: 17
   MOD_VERSION: a1.0.0+1.20.2
   RELEASE_NAME: fossils-mod-a1.0.0+1.20.2
@@ -42,17 +41,27 @@ jobs:
       - name: Publish (Curseforge/Modrinth/GitHub)
         uses: Kir-Antipov/mc-publish@v3.2
         with:
-          curseforge-id:
+          curseforge-id: 933922
           curseforge-token: "${{env.CURSEFORGE_TOKEN}}"
 
+          modrinth-id: dZzqfl98
+          modrinth-token: "${{env.MODRINTH_TOKEN}}"
+
           github-tag: "${{env.MOD_VERSION}}"
+          github-prerelease: true
           github-token: "${{env.GITHUB_TOKEN}}"
+
+          files: |
+            build/libs/!(*-@(dev|sources|javadoc)).jar
+            build/libs/*-@(dev|sources|javadoc).jar
+
+          dependencies: |
+            fabric-language-kotlin@1.10.13+kotlin.1.9.20(required){modrinth:atZwzPrT}{curseforge:4833025}#(ignore:github)
+            fabric-api@0.90.7+1.20.2(required){modrinth:FhOnpSMY}{curseforge:4834998}#(ignore:github)
 
           name: "${{env.RELEASE_NAME}}"
           version: "${{env.MOD_VERSION}}"
           version-type: alpha
           changelog-file: CHANGELOG.md
 
-          loaders: fabric
-          game-versions: "${{env.MINECRAFT_VERSION}}"
           java: "${{env.JAVA_VERSION}}"

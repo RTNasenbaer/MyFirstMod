@@ -3,13 +3,13 @@
 	"id": "myfirstmod",
 	"version": "a1.0.0",
 	"name": "MyFirstMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "adds some fossils from which you can create tools and armor",
 	"authors": [
-		"Me!"
+		"RTNasenbaer"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/RTNasenbaer/MyFirstMod",
+		"sources": "https://github.com/RTNasenbaer/MyFirstMod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/myfirstmod/icon.png",
