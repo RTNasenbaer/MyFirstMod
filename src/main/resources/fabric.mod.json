@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "myfirstmod",
-	"version": "a1.0.0",
+	"version": "1.0.0",
 	"name": "MyFirstMod",
 	"description": "adds some fossils from which you can create tools and armor",
 	"authors": [
