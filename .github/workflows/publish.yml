@@ -52,8 +52,8 @@ jobs:
           github-token: "${{env.GITHUB_TOKEN}}"
 
           dependencies: |
-            fabric-language-kotlin@1.10.13+kotlin.1.9.20(required){modrinth:atZwzPrT}{curseforge:4833025}#(ignore:github)
-            fabric-api@0.90.7+1.20.2(required){modrinth:FhOnpSMY}{curseforge:4834998}#(ignore:github)
+            fabric-language-kotlin@1.10.13+kotlin.1.9.20(required){modrinth:Ha28R6CL}{curseforge:4833025}#(ignore:github)
+            fabric-api@0.90.7+1.20.2(required){modrinth:P7dR8mSH}{curseforge:4834998}#(ignore:github)
 
           name: "${{env.RELEASE_NAME}}"
           version: "${{env.MOD_VERSION}}"
