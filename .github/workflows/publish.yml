@@ -58,6 +58,6 @@ jobs:
           name: "${{env.RELEASE_NAME}}"
           version: "${{env.MOD_VERSION}}"
           version-type: release
-          changelog-file: CHANGELOG.md
+          changelog-file: CHANGELOG.MD
 
           java: "${{env.JAVA_VERSION}}"
