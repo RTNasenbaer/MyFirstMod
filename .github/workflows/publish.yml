@@ -51,10 +51,6 @@ jobs:
           github-prerelease: true
           github-token: "${{env.GITHUB_TOKEN}}"
 
-          files: |
-            build/libs/!(*-@(dev|sources|javadoc)).jar
-            build/libs/*-@(dev|sources|javadoc).jar
-
           dependencies: |
             fabric-language-kotlin@1.10.13+kotlin.1.9.20(required){modrinth:atZwzPrT}{curseforge:4833025}#(ignore:github)
             fabric-api@0.90.7+1.20.2(required){modrinth:FhOnpSMY}{curseforge:4834998}#(ignore:github)
