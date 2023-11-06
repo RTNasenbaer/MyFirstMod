@@ -1,4 +1,4 @@
-# Fossils Mod
+# Ancient Reptiles
 - - -
 ## Project for testing out Fabric API for Minecraft Mod coding
 
@@ -8,3 +8,6 @@ The items all have crafting recipes. I'm working on also adding a new mob, a sna
 - - -
 ## Installation
 
+ - [github-releases](https://github.com/RTNasenbaer/MyFirstMod/releases)
+ - [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/fossils-mod)
+ - [Modrinth](https://modrinth.com/mod/fossils-mod)
