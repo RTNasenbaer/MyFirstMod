@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "myfirstmod:enclosed_fossils"
+              "name": "myfirstmod:deepslate_enclosed_fossils"
             },
             {
               "type": "minecraft:item",
@@ -63,7 +63,7 @@
                   }
                 }
               ],
-              "name": "myfirstmod:enclosed_fossils"
+              "name": "myfirstmod:deepslate_enclosed_fossils"
             },
             {
               "type": "minecraft:item",

@@ -15,6 +15,7 @@ class ModBlockTagProvider(output: FabricDataOutput, registriesFuture: Completabl
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
             .add(ModBlocks.ENCLOSED_FOSSILS)
+            .add(ModBlocks.DEEPSLATE_ENCLOSED_FOSSILS)
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, Identifier("fabric", "needs_tool_level_-1")))
             .add(ModBlocks.SCALE_BLOCK, ModBlocks.ANCIENT_SCALE_BLOCK)

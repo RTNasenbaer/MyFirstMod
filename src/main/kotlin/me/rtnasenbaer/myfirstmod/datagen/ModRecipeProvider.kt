@@ -15,7 +15,7 @@ class ModRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output)
     val ancient_smeltable = listOf(ModBlocks.ENCLOSED_FOSSILS)
     override fun generate(exporter: RecipeExporter) {
         offerSmelting(exporter, ancient_smeltable, RecipeCategory.MISC, ModItems.ANCIENT_SCALE, 0.7F, 200, "ancient_scale")
-        offerBlasting(exporter, ancient_smeltable, RecipeCategory.MISC, ModItems.ANCIENT_SCALE, 0.7F, 100, "ancient_scale")
+        offerBlasting(exporter, ancient_smeltable, RecipeCategory.MISC, ModItems.CLAW, 0.7F, 100, "claw")
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ANCIENT_SCALE, RecipeCategory.DECORATIONS, ModBlocks.ANCIENT_SCALE_BLOCK)

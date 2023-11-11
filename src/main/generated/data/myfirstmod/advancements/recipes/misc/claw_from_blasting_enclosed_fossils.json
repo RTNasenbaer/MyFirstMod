@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:ancient_scale_from_blasting_enclosed_fossils"
+        "recipe": "minecraft:claw_from_blasting_enclosed_fossils"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:ancient_scale_from_blasting_enclosed_fossils"
+      "minecraft:claw_from_blasting_enclosed_fossils"
     ]
   },
   "sends_telemetry_event": false

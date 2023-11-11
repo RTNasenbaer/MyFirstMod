@@ -34,6 +34,7 @@ object ModItemGroups {
                 entries.add(ModBlocks.ANCIENT_SCALE_BLOCK)
                 entries.add(ModBlocks.SCALE_BLOCK)
                 entries.add(ModBlocks.ENCLOSED_FOSSILS)
+                entries.add(ModBlocks.DEEPSLATE_ENCLOSED_FOSSILS)
             }
             .build())
 

@@ -14,6 +14,7 @@ class ModModelProvider(output: FabricDataOutput) : FabricModelProvider(output) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANCIENT_SCALE_BLOCK)
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SCALE_BLOCK)
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENCLOSED_FOSSILS)
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ENCLOSED_FOSSILS)
     }
 
     override fun generateItemModels(itemModelGenerator: ItemModelGenerator) {

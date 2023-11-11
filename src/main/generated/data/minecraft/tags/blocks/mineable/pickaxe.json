@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "myfirstmod:enclosed_fossils"
+    "myfirstmod:enclosed_fossils",
+    "myfirstmod:deepslate_enclosed_fossils"
   ]
 }

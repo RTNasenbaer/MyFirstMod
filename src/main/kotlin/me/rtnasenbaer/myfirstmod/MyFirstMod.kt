@@ -3,6 +3,7 @@ package me.rtnasenbaer.myfirstmod
 import me.rtnasenbaer.myfirstmod.block.ModBlocks
 import me.rtnasenbaer.myfirstmod.item.ModItemGroups
 import me.rtnasenbaer.myfirstmod.item.ModItems
+import me.rtnasenbaer.myfirstmod.world.gen.ModWorldGeneration
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 
@@ -16,5 +17,7 @@ object MyFirstMod : ModInitializer {
 
 		ModItems.registerModItems()
 		ModBlocks.registerModBlocks()
+
+		ModWorldGeneration.generateModWorldGen()
 	}
 }

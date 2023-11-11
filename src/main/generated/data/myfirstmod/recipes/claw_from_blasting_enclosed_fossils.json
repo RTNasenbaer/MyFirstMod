@@ -3,9 +3,9 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.7,
-  "group": "ancient_scale",
+  "group": "claw",
   "ingredient": {
     "item": "myfirstmod:enclosed_fossils"
   },
-  "result": "myfirstmod:ancient_scale"
+  "result": "myfirstmod:claw"
 }
